@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/sidewalkcafe/static/css/main.8cacb2cc.css",
-    "main.js": "/sidewalkcafe/static/js/main.dcde8778.js",
+    "main.css": "/sidewalkcafe/static/css/main.2a2d876d.css",
+    "main.js": "/sidewalkcafe/static/js/main.31e67daa.js",
     "static/media/img4.jpg": "/sidewalkcafe/static/media/img4.6e53a85624399b33c82e.jpg",
     "static/media/img3.jpg": "/sidewalkcafe/static/media/img3.93224b6e5bdef8db00ea.jpg",
     "static/media/ananya.jpg": "/sidewalkcafe/static/media/ananya.ac86bce26681ec8a006b.jpg",
@@ -21,11 +21,11 @@
     "static/media/revicons.ttf": "/sidewalkcafe/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/sidewalkcafe/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/sidewalkcafe/index.html",
-    "main.8cacb2cc.css.map": "/sidewalkcafe/static/css/main.8cacb2cc.css.map",
-    "main.dcde8778.js.map": "/sidewalkcafe/static/js/main.dcde8778.js.map"
+    "main.2a2d876d.css.map": "/sidewalkcafe/static/css/main.2a2d876d.css.map",
+    "main.31e67daa.js.map": "/sidewalkcafe/static/js/main.31e67daa.js.map"
   },
   "entrypoints": [
-    "static/css/main.8cacb2cc.css",
-    "static/js/main.dcde8778.js"
+    "static/css/main.2a2d876d.css",
+    "static/js/main.31e67daa.js"
   ]
 }
