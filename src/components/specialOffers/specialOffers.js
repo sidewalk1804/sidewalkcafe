@@ -38,13 +38,27 @@ function SpecialOffers(props) {
         <div style={style} className="specialOfferImg">
           <div className="specialOfferText1">OPENING HOURS:-</div>
           <ul>
-            <li className="specialOfferText3">Sun:- 11:30 AM - 11:30 PM</li>
-            <li className="specialOfferText3">Mon:- 11:30 AM - 11:30 PM</li>
-            <li className="specialOfferText3">Tue:- 11:30 AM - 11:30 PM</li>
-            <li className="specialOfferText3">Wed:- 11:30 AM - 11:30 PM</li>
-            <li className="specialOfferText3">Thu:- 11:30 AM - 11:30 PM</li>
-            <li className="specialOfferText3">Fri:- 11:30 AM - 11:30 PM</li>
-            <li className="specialOfferText3">Sat:- 11:30 AM - 11:30 PM</li>
+            <li className="specialOfferText3" style={{ fontSize: "1.1rem" }}>
+              Sun:- 11:30 AM - 11:30 PM
+            </li>
+            <li className="specialOfferText3" style={{ fontSize: "1.1rem" }}>
+              Mon:- 11:30 AM - 11:30 PM
+            </li>
+            <li className="specialOfferText3" style={{ fontSize: "1.1rem" }}>
+              Tue:- 11:30 AM - 11:30 PM
+            </li>
+            <li className="specialOfferText3" style={{ fontSize: "1.1rem" }}>
+              Wed:- 11:30 AM - 11:30 PM
+            </li>
+            <li className="specialOfferText3" style={{ fontSize: "1.1rem" }}>
+              Thu:- 11:30 AM - 11:30 PM
+            </li>
+            <li className="specialOfferText3" style={{ fontSize: "1.1rem" }}>
+              Fri:- 11:30 AM - 11:30 PM
+            </li>
+            <li className="specialOfferText3" style={{ fontSize: "1.1rem" }}>
+              Sat:- 11:30 AM - 11:30 PM
+            </li>
           </ul>
         </div>
       </div>
