@@ -1,0 +1,39 @@
+.menu {
+  height: 100vh;
+  overflow-y: scroll;
+  width: 100vw;
+  background-position: center;
+  background-size: cover;
+}
+
+.menuHeader {
+  display: block;
+  padding: 1rem;
+  text-align: center;
+}
+
+.menuText {
+  font-family: "Cinzel", serif;
+  font-size: 3rem;
+  color: rgb(255, 255, 255);
+  display: block;
+  letter-spacing: 1rem;
+}
+
+.menuTagLine {
+  font-family: "Dancing Script", cursive;
+  font-weight: 600;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.menuHeader span {
+  display: block;
+}
+
+.menuContainer {
+  display: grid;
+  margin: 2rem;
+  gap: 2rem;
+  grid-template-columns: repeat(4, 1fr);
+}

@@ -1,0 +1,78 @@
+.galleryHeaderText {
+  font-family: "Cinzel", serif;
+  font-weight: 600;
+  color: black;
+  font-size: 3rem;
+  display: block;
+}
+
+.galleryHeaderTag {
+  font-family: "Dancing Script", cursive;
+  font-weight: 600;
+  color: black;
+  font-size: 2rem;
+}
+
+.galleryHeader {
+  display: block;
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.imageCard img {
+  max-width: 100%;
+  max-height: 100%;
+  margin: auto;
+  display: block;
+}
+.imageCard img:hover {
+  transform: scale(1.05);
+}
+
+.gallerySection {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 2rem 2rem;
+}
+
+.imageCard {
+  flex: 0 0 100px;
+  height: 25rem;
+  padding: 20px;
+  display: flex;
+  border-radius: 10px;
+  background-color: rgb(224, 217, 217);
+  margin: 10px;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+.viewButtonContainer {
+  display: block;
+  padding: 1rem;
+  text-align: center;
+}
+
+.viewMoreBtn {
+  font-family: "Comfortaa", cursive;
+  text-decoration: underline;
+  color: #727272;
+  font-size: 1.5rem;
+  animation: neon 0.08s ease-in-out infinite alternate;
+  cursor: pointer;
+}
+
+@keyframes neon {
+  from {
+    text-shadow: 0 0 1px rgba(223, 223, 223, 0.92),
+      0 0 2px rgba(219, 219, 219, 0.34), 0 0 3px rgba(116, 116, 116, 0.52),
+      0 0 3.5px rgba(116, 116, 116, 0.92), 0 0 4px rgba(116, 116, 116, 0.78),
+      0 0 5px rgba(116, 116, 116, 0.92);
+  }
+  to {
+    text-shadow: 0 0 1px rgba(223, 223, 223, 0.92),
+      0 0 2px rgba(219, 219, 219, 0.34), 0 0 3px rgba(116, 116, 116, 0.52),
+      0 0 3.5px rgba(116, 116, 116, 0.92), 0 0 4px rgba(116, 116, 116, 0.78),
+      0 0 5px rgba(116, 116, 116, 0.92);
+  }
+}

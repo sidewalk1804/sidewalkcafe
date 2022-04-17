@@ -1,0 +1,7 @@
+.menuSection {
+  position: absolute;
+  z-index: 10;
+  height: 100%;
+  width: 100vw;
+  background-color: white;
+}

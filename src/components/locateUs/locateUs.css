@@ -1,0 +1,11 @@
+.sidewalkFrontImg {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.locateUsText {
+  font-family: "Comfortaa", cursive;
+  width: 60%;
+  margin-left: 5rem;
+  font-size: 20px;
+}
