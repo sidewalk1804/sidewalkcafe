@@ -3,8 +3,10 @@ import "react-multi-carousel/lib/styles.css";
 import { useState, useEffect } from "react";
 import "./testimonials.css";
 import Manshi from "../../images/manshi.jpg";
-import Akshendra from "../../images/akshendra.jpg";
+// import Akshendra from "../../images/akshendra.jpg";
 import Ananya from "../../images/ananya.jpg";
+import Isha from "../../images/Isha.jpeg";
+import Default from "../../images/defaultTestimonial.jpg";
 
 function Testimonials(props) {
   const [testimonialIndex, updateTestimonialIndex] = useState(0);
@@ -32,55 +34,49 @@ function Testimonials(props) {
       name: "Manshi Baranwal",
       img: Manshi,
       testimonial:
-        "Very nice cafe, best food in Patna, very friendly owner. We're open now. Come visit us.",
+        "Nice place with amazing food. A very beautiful ambience. Good cozy vibes and a good choice to hangout with your friends.",
     },
     {
-      name: "Akshendra Kumar",
-      img: Akshendra,
+      name: "Jaanvi Gulati",
+      img: null,
       testimonial:
-        "Bahut hi Rapchik cafe hai beedu. Khaana, bole to Food bhi bahut rapchik hai idhar kaa. Owner bhi cute si hai badi.",
+        "Nice place with good staff and tasty food with reasonable prices. The fried ice cream was very nice and the place is also very comfortable for students to chill in.",
     },
     {
-      name: "Ananya Kumar",
-      img: Ananya,
+      name: "Isha Singh",
+      img: Isha,
       testimonial:
-        "Nice Cafe. Mai idhar aata hu sutta phukne. Uska bhi separate space hai. Good job. Bum Bum Bhole.",
-    },
-    {
-      name: "Manshi Baranwal",
-      img: Manshi,
-      testimonial:
-        "Very nice cafe, best food in Patna, very friendly owner. We're open now. Come visit us.",
-    },
-    {
-      name: "Akshendra Kumar",
-      img: Akshendra,
-      testimonial:
-        "Bahut hi Rapchik cafe hai beedu. Khaana, bole to Food bhi bahut rapchik hai idhar kaa. Owner bhi cute si hai badi.",
+        "It is one of the best cafes in patna with service up to the mark n is hygiene oriented..Provides really good food in terms of taste and the staff is well mannered n customer friendly..Must visit..Highly recommend..!!",
     },
     {
       name: "Ananya Kumar",
       img: Ananya,
       testimonial:
-        "Nice Cafe. Mai idhar aata hu sutta phukne. Uska bhi separate space hai. Good job. Bum Bum Bhole.",
+        "Best Cafe in Patna with wide varieties of food categories...Provides really good food in terms of taste and hygiene. Highly recommend.",
     },
     {
-      name: "Manshi Baranwal",
-      img: Manshi,
+      name: "Vishnu Dayal",
+      img: null,
       testimonial:
-        "Very nice cafe, best food in Patna, very friendly owner. We're open now. Come visit us.",
+        "Every time i go there I try something new and i am amazed how everything they cook is just amazing and 😋tasty",
     },
     {
-      name: "Akshendra Kumar",
-      img: Akshendra,
+      name: "Kriti Dalmia",
+      img: null,
       testimonial:
-        "Bahut hi Rapchik cafe hai beedu. Khaana, bole to Food bhi bahut rapchik hai idhar kaa. Owner bhi cute si hai badi.",
+        "This place has to be in your list. This place serves great food and has great ambience. Loved the vibe and hospitality.",
     },
     {
-      name: "Ananya Kumar",
-      img: Ananya,
+      name: "Anjali",
+      img: null,
       testimonial:
-        "Nice Cafe. Mai idhar aata hu sutta phukne. Uska bhi separate space hai. Good job. Bum Bum Bhole.",
+        "All you get here is great food and good vibes. Beautiful ambience..loved this place. Must go with your friends and family.",
+    },
+    {
+      name: "Pratik K",
+      img: null,
+      testimonial:
+        "Amazing food with good quality and quantity. All the staff are very polite. Ambience is so good❤️. Must try😍.",
     },
   ];
 
@@ -135,7 +131,7 @@ function Testimonials(props) {
               <div key={index} className="testimonialContainer">
                 <div className="testimonialImgContainer">
                   <img
-                    src={data.img}
+                    src={data.img === null ? Default : data.img}
                     alt={data.name}
                     className="testimonialImg"
                   />
