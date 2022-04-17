@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.c97c9c90.css",
-    "main.js": "/static/js/main.b368acf7.js",
+    "main.js": "/static/js/main.75a4ff84.js",
     "static/media/chickenTangdi.jpg": "/static/media/chickenTangdi.7d783c809d8c0e971b8d.jpg",
     "static/media/img4.jpg": "/static/media/img4.6e53a85624399b33c82e.jpg",
     "static/media/utsavFest.mp4": "/static/media/utsavFest.7a565921fb887fa4e242.mp4",
@@ -10,6 +10,7 @@
     "static/media/ananya.jpg": "/static/media/ananya.ac86bce26681ec8a006b.jpg",
     "static/media/birthday.jpg": "/static/media/birthday.ac86bce26681ec8a006b.jpg",
     "static/media/headerImage.jpg": "/static/media/headerImage.5c55ccd799984a2f5794.jpg",
+    "static/media/defaultTestimonial.jpg": "/static/media/defaultTestimonial.f2898f094385d4298a19.jpg",
     "static/media/anniversary.jpg": "/static/media/anniversary.36456f7629b1ab2ec80c.jpg",
     "static/media/manshi.jpg": "/static/media/manshi.96572ca067cd3e5326e3.jpg",
     "static/media/getTogether.jpg": "/static/media/getTogether.f65770b8487b909818f3.jpg",
@@ -19,6 +20,7 @@
     "static/media/img5.jpg": "/static/media/img5.cc5aa4a236c844b10424.jpg",
     "static/media/getTogether1.jpg": "/static/media/getTogether1.0ee6262094aff2d20804.jpg",
     "static/media/menuBG.jpg": "/static/media/menuBG.e437a31512255890e836.jpg",
+    "static/media/Isha.jpeg": "/static/media/Isha.f207d18085a5de254b88.jpeg",
     "static/media/meTime.jpg": "/static/media/meTime.37433a2cc644fc5be8a2.jpg",
     "static/media/locateUs.jpg": "/static/media/locateUs.980fe8808f50c6528e52.jpg",
     "static/media/pasta.jpeg": "/static/media/pasta.9045f9ff372766040338.jpeg",
@@ -26,16 +28,15 @@
     "static/media/cardBackground.jpg": "/static/media/cardBackground.2241e084a38010747064.jpg",
     "static/media/noodles.jpg": "/static/media/noodles.78f0f07bf687fea7b94d.jpg",
     "static/media/sidewalk_logo.png": "/static/media/sidewalk_logo.f00062e49ffc2fa8794a.png",
-    "static/media/akshendra.jpg": "/static/media/akshendra.1f2de54556b252b55f05.jpg",
     "static/media/revicons.eot": "/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/index.html",
     "main.c97c9c90.css.map": "/static/css/main.c97c9c90.css.map",
-    "main.b368acf7.js.map": "/static/js/main.b368acf7.js.map"
+    "main.75a4ff84.js.map": "/static/js/main.75a4ff84.js.map"
   },
   "entrypoints": [
     "static/css/main.c97c9c90.css",
-    "static/js/main.b368acf7.js"
+    "static/js/main.75a4ff84.js"
   ]
 }
