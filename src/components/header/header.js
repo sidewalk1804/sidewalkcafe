@@ -34,7 +34,7 @@ function Header(props) {
         <div className="ghostButtonMenu" onClick={menuPage}>
           Menu
         </div>
-        <div className="ghostButtonOrder">Order Online</div>
+        {/* <div className="ghostButtonOrder">Order Online</div> */}
       </div>
     </section>
   );

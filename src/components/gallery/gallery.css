@@ -19,26 +19,30 @@
   padding-top: 2rem;
 }
 
-.imageCard img {
+.imageCard img, .imageCard video {
   max-width: 100%;
   max-height: 100%;
   margin: auto;
   display: block;
+  text-align: center;
 }
-.imageCard img:hover {
-  transform: scale(1.05);
+.imageCard img:hover, .imageCard video:hover {
+  transform: scale(2);
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+
 }
 
 .gallerySection {
   display: grid;
   gap: 2rem;
-  grid-template-columns: repeat(3, 1fr);
-  margin: 2rem 2rem;
+  grid-template-columns: repeat(6, 1fr);
+  margin-top: 2rem;
 }
 
 .imageCard {
   flex: 0 0 100px;
-  height: 25rem;
+  height: 10rem;
   padding: 20px;
   display: flex;
   border-radius: 10px;

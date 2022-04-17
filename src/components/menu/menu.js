@@ -5,20 +5,20 @@ import Card from "../cards/card";
 
 import "./menu.css";
 import MenuBG from "../../images/menuBG.jpg";
-import menuActions from "../../actions/menuActions";
+// import menuActions from "../../actions/menuActions";
 
 function Menu(props) {
   const [fetchMenu, fetchMenuStatus] = useState(false);
-  useEffect(() => {
-    if (
-      props.menuCategories &&
-      Object.keys(props.menuCategories).length === 0 &&
-      !fetchMenu
-    ) {
-      props.fetchMenuCategories();
-      fetchMenuStatus(true);
-    }
-  });
+  // useEffect(() => {
+  //   if (
+  //     props.menuCategories &&
+  //     Object.keys(props.menuCategories).length === 0 &&
+  //     !fetchMenu
+  //   ) {
+  //     props.fetchMenuCategories();
+  //     fetchMenuStatus(true);
+  //   }
+  // });
 
   let style = {
     backgroundImage: `url(${MenuBG})`,
@@ -32,11 +32,12 @@ function Menu(props) {
       <div className="menuHeader">
         <span className="menuText">Menu</span>
         <span className="menuTagLine">To keep your Tummy tingling ...</span>
+        <div> </div>
       </div>
-      <div className="menuContainer">
+      <div className="menusContainer">
         {Object.keys(menu).length > 0
-          ? menu.map((category, index) => {
-              return <Card data={category} />;
+          ? Object.entries(menu).map((category, index) => {
+              return <Card title={category[0]} data={category[1]} />;
             })
           : null}
       </div>
@@ -51,8 +52,8 @@ const mapStateToProps = (state) => {
   };
 };
 
-const mapActionsToProps = {
-  fetchMenuCategories: menuActions.fetchMenuCategories,
-};
+// const mapActionsToProps = {
+//   fetchMenuCategories: menuActions.fetchMenuCategories,
+// };
 
-export default connect(mapStateToProps, mapActionsToProps)(Menu);
+export default connect(mapStateToProps)(Menu);

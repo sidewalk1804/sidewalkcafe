@@ -14,13 +14,22 @@ function LocateUs(props) {
       />
 
       <div className="locateUsText">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-        mollit anim id est laborum.{" "}
+        We at Sidewalk are thrilled to welcome you in our Cafe, purely designed
+        and curated to get your mind off from everything and enjoy your "Me
+        Time". As mentioned by Danny Meyer in one of his quotes, "A great
+        restaurant is one that just makes you feel like you're not sure whether
+        you went out or you came home and confuses you. If it can do both of
+        those things at the same time, you're hooked.", we provide you the best
+        of both.
+        <br />
+        <br /> We've a range of food catergories, it's hard to tell which one is
+        best, as we have one of the best chef's in Patna. So, do try everything
+        from all our menu catergories, though we recommend you not to try
+        everything at once.
+        <br />
+        <br />
+        We're located in Mithapur, In front of Aryabhat knowledge University
+        Gate No. 2.{" "}
         <a href="https://www.google.com/maps/place/Sidewalk+-+Cafe+and+Restaurant/@25.5917296,85.1273452,15z/data=!4m5!3m4!1s0x0:0x1d0cf7e0d1e94fb5!8m2!3d25.5917296!4d85.1360999">
           Google Maps Location
         </a>

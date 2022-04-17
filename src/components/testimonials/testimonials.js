@@ -112,7 +112,7 @@ function Testimonials(props) {
       </div>
       <div className="testimonialsContainer">
         <Carousel
-          swipeable={false}
+          swipeable={true}
           draggable={false}
           showDots={true}
           renderButtonGroupOutside={true}
