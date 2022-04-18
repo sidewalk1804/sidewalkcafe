@@ -23,13 +23,17 @@ function SpecialOffers(props) {
       <div className="specialOffers">
         <div style={style} className="specialOfferImg">
           <div className="specialOfferText1">RESERVATIONS AVAILABLE FOR:-</div>
-          <ul>
-            <li className="specialOfferText3">Birthday</li>
-            <li className="specialOfferText3">Anniversary</li>
-            <li className="specialOfferText3">Parties</li>
-          </ul>
+
+          <div className="specialOfferText3">Birthday</div>
+          <div className="specialOfferText3">Anniversary</div>
+          <div className="specialOfferText3">Parties</div>
           <h4 className="specialOfferText2">Contact us on:- </h4>
-          <div className="specialOfferText3">+91 9508509463</div>
+          <div
+            className="specialOfferText3"
+            style={{ top: "-2rem", position: "relative" }}
+          >
+            +91 9508509463
+          </div>
         </div>
         {/* <img className="specialOfferImg" src={CardBack} alt="Offer" /> */}
         <img className="specialOfferImg" src={offers[offerIndex]} alt="Offer" />
@@ -37,29 +41,27 @@ function SpecialOffers(props) {
 
         <div style={style} className="specialOfferImg">
           <div className="specialOfferText1">OPENING HOURS:-</div>
-          <ul>
-            <li className="specialOfferText3" style={{ fontSize: "1.1rem" }}>
-              Sun:- 11:30 AM - 11:30 PM
-            </li>
-            <li className="specialOfferText3" style={{ fontSize: "1.1rem" }}>
-              Mon:- 11:30 AM - 11:30 PM
-            </li>
-            <li className="specialOfferText3" style={{ fontSize: "1.1rem" }}>
-              Tue:- 11:30 AM - 11:30 PM
-            </li>
-            <li className="specialOfferText3" style={{ fontSize: "1.1rem" }}>
-              Wed:- 11:30 AM - 11:30 PM
-            </li>
-            <li className="specialOfferText3" style={{ fontSize: "1.1rem" }}>
-              Thu:- 11:30 AM - 11:30 PM
-            </li>
-            <li className="specialOfferText3" style={{ fontSize: "1.1rem" }}>
-              Fri:- 11:30 AM - 11:30 PM
-            </li>
-            <li className="specialOfferText3" style={{ fontSize: "1.1rem" }}>
-              Sat:- 11:30 AM - 11:30 PM
-            </li>
-          </ul>
+          <div className="specialOfferText3" style={{ fontSize: "1.1rem" }}>
+            Sun:- 11:30 AM - 11:30 PM
+          </div>
+          <div className="specialOfferText3" style={{ fontSize: "1.1rem" }}>
+            Mon:- 11:30 AM - 11:30 PM
+          </div>
+          <div className="specialOfferText3" style={{ fontSize: "1.1rem" }}>
+            Tue:- 11:30 AM - 11:30 PM
+          </div>
+          <div className="specialOfferText3" style={{ fontSize: "1.1rem" }}>
+            Wed:- 11:30 AM - 11:30 PM
+          </div>
+          <div className="specialOfferText3" style={{ fontSize: "1.1rem" }}>
+            Thu:- 11:30 AM - 11:30 PM
+          </div>
+          <div className="specialOfferText3" style={{ fontSize: "1.1rem" }}>
+            Fri:- 11:30 AM - 11:30 PM
+          </div>
+          <div className="specialOfferText3" style={{ fontSize: "1.1rem" }}>
+            Sat:- 11:30 AM - 11:30 PM
+          </div>
         </div>
       </div>
     </div>

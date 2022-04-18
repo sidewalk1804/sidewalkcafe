@@ -22,9 +22,9 @@ function Header(props) {
 
   return (
     <section className="headerContainer" style={style}>
-      <div className="logoContainer">
+      {/* <div className="logoContainer">
         <img src={Logo} alt="logo" className="logo" />
-      </div>
+      </div> */}
 
       <div className="cafeNameSection">
         <span className="cafeName">SIDEWALK</span>
@@ -35,6 +35,9 @@ function Header(props) {
           Menu
         </div>
         {/* <div className="ghostButtonOrder">Order Online</div> */}
+      </div>
+      <div className="logoContainer">
+        <img src={Logo} alt="logo" className="logo" />
       </div>
     </section>
   );

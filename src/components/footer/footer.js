@@ -8,7 +8,7 @@ export default function Footer() {
     <div
       className="sectionContainer"
       style={{
-        height: "5rem",
+        height: "10rem",
         paddingBottom: "5rem",
         backgroundColor: "rgb(75, 75, 75)",
         textAlign: "center",
@@ -30,6 +30,20 @@ export default function Footer() {
         <a href="https://www.swiggy.com/restaurants/sidewalk-cafe-and-restaurant-fraser-road-patna-398777">
           <img className="footerLinkImg" src={Swiggy} alt="" />
         </a>
+      </div>
+      <div>
+        <div
+          className="galleryHeaderText"
+          style={{ paddingTop: "1rem", fontSize: "1rem" }}
+        >
+          CONTACT US ON :-
+        </div>
+        <div
+          className="galleryHeaderText"
+          style={{ paddingTop: "0.5rem", fontSize: "1.5rem", color: "white" }}
+        >
+          +91 9508509463
+        </div>
       </div>
     </div>
   );
