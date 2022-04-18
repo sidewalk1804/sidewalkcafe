@@ -1,0 +1,9 @@
+.footerLinksContainer{
+    display: contents;
+  width: 10rem;
+}
+
+.footerLinkImg{
+    max-height: 2rem;
+    margin: 1rem;
+}
