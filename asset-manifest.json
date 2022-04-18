@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.48eaa2d0.css",
-    "main.js": "/static/js/main.dd0644a8.js",
+    "main.css": "/static/css/main.edd65cb2.css",
+    "main.js": "/static/js/main.e5224883.js",
     "static/media/chickenTangdi.jpg": "/static/media/chickenTangdi.7d783c809d8c0e971b8d.jpg",
     "static/media/img4.jpg": "/static/media/img4.6e53a85624399b33c82e.jpg",
     "static/media/utsavFest.mp4": "/static/media/utsavFest.7a565921fb887fa4e242.mp4",
@@ -35,11 +35,11 @@
     "static/media/revicons.ttf": "/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/index.html",
-    "main.48eaa2d0.css.map": "/static/css/main.48eaa2d0.css.map",
-    "main.dd0644a8.js.map": "/static/js/main.dd0644a8.js.map"
+    "main.edd65cb2.css.map": "/static/css/main.edd65cb2.css.map",
+    "main.e5224883.js.map": "/static/js/main.e5224883.js.map"
   },
   "entrypoints": [
-    "static/css/main.48eaa2d0.css",
-    "static/js/main.dd0644a8.js"
+    "static/css/main.edd65cb2.css",
+    "static/js/main.e5224883.js"
   ]
 }
