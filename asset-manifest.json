@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.a26e2857.css",
+    "main.css": "/static/css/main.e3318dd8.css",
     "main.js": "/static/js/main.3cac49d4.js",
     "static/media/chickenTangdi.jpg": "/static/media/chickenTangdi.7d783c809d8c0e971b8d.jpg",
     "static/media/img4.jpg": "/static/media/img4.6e53a85624399b33c82e.jpg",
@@ -44,11 +44,11 @@
     "static/media/revicons.ttf": "/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/index.html",
-    "main.a26e2857.css.map": "/static/css/main.a26e2857.css.map",
+    "main.e3318dd8.css.map": "/static/css/main.e3318dd8.css.map",
     "main.3cac49d4.js.map": "/static/js/main.3cac49d4.js.map"
   },
   "entrypoints": [
-    "static/css/main.a26e2857.css",
+    "static/css/main.e3318dd8.css",
     "static/js/main.3cac49d4.js"
   ]
 }
