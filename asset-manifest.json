@@ -1,12 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.edd65cb2.css",
-    "main.js": "/static/js/main.e5224883.js",
+    "main.css": "/static/css/main.a26e2857.css",
+    "main.js": "/static/js/main.3cac49d4.js",
     "static/media/chickenTangdi.jpg": "/static/media/chickenTangdi.7d783c809d8c0e971b8d.jpg",
     "static/media/img4.jpg": "/static/media/img4.6e53a85624399b33c82e.jpg",
     "static/media/utsavFest.mp4": "/static/media/utsavFest.7a565921fb887fa4e242.mp4",
     "static/media/malaiTandooriChicken.jpg": "/static/media/malaiTandooriChicken.60cc33fe88ce1ba99d56.jpg",
     "static/media/food.mp4": "/static/media/food.d14dcbf2cf5de29ac1f0.mp4",
+    "static/media/menu6.png": "/static/media/menu6.4ce2ad8b522dab96c047.png",
+    "static/media/menu2.png": "/static/media/menu2.a933b36317147f16bb28.png",
+    "static/media/menu5.png": "/static/media/menu5.e9354fca8e22a9ebc63d.png",
+    "static/media/menu1.png": "/static/media/menu1.2c17ce7361cd5b8bcb9b.png",
+    "static/media/menu4.png": "/static/media/menu4.ed7a32d230bb0711af81.png",
+    "static/media/menu3.png": "/static/media/menu3.02883481b2a1c8b62145.png",
+    "static/media/menu7.png": "/static/media/menu7.79fbae866eb48f34d651.png",
+    "static/media/menu8.png": "/static/media/menu8.5958f94ede8bccaf1af4.png",
+    "static/media/menu9.png": "/static/media/menu9.aaf4ce34fc7d1dd991f8.png",
     "static/media/ananya.jpg": "/static/media/ananya.ac86bce26681ec8a006b.jpg",
     "static/media/birthday.jpg": "/static/media/birthday.ac86bce26681ec8a006b.jpg",
     "static/media/headerImage.jpg": "/static/media/headerImage.5c55ccd799984a2f5794.jpg",
@@ -35,11 +44,11 @@
     "static/media/revicons.ttf": "/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/index.html",
-    "main.edd65cb2.css.map": "/static/css/main.edd65cb2.css.map",
-    "main.e5224883.js.map": "/static/js/main.e5224883.js.map"
+    "main.a26e2857.css.map": "/static/css/main.a26e2857.css.map",
+    "main.3cac49d4.js.map": "/static/js/main.3cac49d4.js.map"
   },
   "entrypoints": [
-    "static/css/main.edd65cb2.css",
-    "static/js/main.e5224883.js"
+    "static/css/main.a26e2857.css",
+    "static/js/main.3cac49d4.js"
   ]
 }
